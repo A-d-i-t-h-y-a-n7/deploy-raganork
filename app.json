@@ -1,11 +1,9 @@
 {
-    "name": "rgnk wabot",
+    "name": "kiran xer wabot",
     "description": "WhatsApp public/user bot",
-    "logo": "",
+    "logo": "https://i.imgur.com/4iAODFB.jpg",
     "keywords": ["WhatsApp"],
-    "repository": "https://github.com/souravkl11/raganork-md",
-    "website":   "https://raganork.ml",
-    "success_url": "https://raganork.ml",
+    "repository": "https://github.com/Kiranxer/deploy-raganork",
     "stack": "container",
     "env": {
         "HANDLERS": {
@@ -28,15 +26,10 @@
             "required": true,
             "value":"true"
         },
-       "HEROKU_API_KEY": {
-            "description": "For updating bot and setting vars remotely",
-            "required": true,
-            "value":""
-        },
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
             "required": true,
-            "value":""
+            "value":"setvar cmd onnum wrk avilla myre 😹👨🏻‍🦯"
         },
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
@@ -61,12 +54,12 @@
         "MODE": {
             "description": "Private or public",
             "required": true,
-            "value":"private"
+            "value":"public"
         },
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":""
+            "value":"919539060020"
         },
         "BLOCK_CHAT": {
             "description": "Block bot in specific groups, enter jids here sepereated with commas",
@@ -110,11 +103,5 @@
     },
     "addons": [{
       "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [{
-      "url": "heroku-community/apt"
-      },
-      {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-      }]
+        }]
   }
