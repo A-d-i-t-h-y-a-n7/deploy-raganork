@@ -1,7 +1,7 @@
 {
-    "name": "kiran xer wabot",
+    "name": "Tbz xeno ser wabot",
     "description": "WhatsApp public/user bot",
-    "logo": "https://i.imgur.com/4iAODFB.jpg",
+    "logo": "https://i.imgur.com/CTjGWlE.jpeg",
     "keywords": ["WhatsApp"],
     "repository": "https://github.com/Kiranxer/deploy-raganork",
     "stack": "container",
@@ -44,12 +44,12 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"Raganork"
+            "value":"Xeno"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"Raganork;Souravkl11;https://i.imgur.com/YchATyT.jpeg"
+            "value":";xenoser;xenomd;https://i.imgur.com/CTjGWlE.jpeg"
         },
         "MODE": {
             "description": "Private or public",
@@ -59,7 +59,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"919539060020"
+            "value":"919074739591"
         },
         "BLOCK_CHAT": {
             "description": "Block bot in specific groups, enter jids here sepereated with commas",
@@ -74,7 +74,7 @@
         "ALLOWED": {
             "description": "Country codes allowed by antifake",
             "required": false,
-            "value":"91,48"
+            "value":"91,92,94,48"
         },
         "WARN": {
             "description": "Warn limit",
